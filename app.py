@@ -14,5 +14,8 @@ type = response['type']
 setup = response ['setup']
 punch = response['punchline']
 
-print(setup, punch)
+#print(setup, punch)
 
+logger = logging.getLogger(__name__)
+logging.basicConfig(filename="joke.log", encoding="utf-8", level=logging.DEBUG)
+logging.warning('%s:%s:%s', id, setup, punch)
