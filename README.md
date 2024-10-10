@@ -1,2 +1,2 @@
 # jokelogger
-IJBOL type bear
+IJBOL type beat
